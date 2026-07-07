@@ -12,14 +12,14 @@ export default function Home() {
   return (
     <div className="bg-black min-h-screen font-sans selection:bg-blue-500 selection:text-white scroll-smooth">
       <main>
-        <Hero />
-        <Experience />
         <Education />
+        <Hero />
         <AboutTabs />
         <SqlTerminal />
         <DashboardSandbox />
         <Projects />
         <Contact />
+        <Experience />
       </main>
 
       <AiChatWidget />
