@@ -4,7 +4,8 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const formData = new FormData();
+  formData.append("e0362774-ae16-46b3-8a8b-79d11f84cf8c", process.env.NEXT_PUBLIC_WEB3_KEY || "");
   const [status, setStatus] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {

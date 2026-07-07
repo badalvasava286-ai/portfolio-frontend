@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center items-center p-10 md:p-24  text-gray-900 dark:text-white overflow-hidden text-center">
-      bg-white dark:bg-black
+    <section className="relative min-h-screen flex flex-col justify-center items-center p-10 md:p-24 bg-black text-white overflow-hidden text-center">
+      
       {/* Background Glow Effect */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[120px] pointer-events-none"></div>
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-emerald-600/10 rounded-full blur-[120px] pointer-events-none"></div>
@@ -45,7 +45,7 @@ export default function Hero() {
         </h2>
 
         {/* Punchy Summary */}
-        <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mb-10 leading-relaxed">
+        <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 leading-relaxed">
           I bridge the gap between operational complexity and elegant software. From managing high-volume warehouse logic to engineering high-performance React and SQL applications, I build intelligent tools that scale.
         </p>
 
