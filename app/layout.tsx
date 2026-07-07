@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} transition-colors duration-300`}>
-        <Providers>
+        
         {/* Navbar stays at the top of every page */}
         <Navbar />
         
@@ -28,7 +28,7 @@ export default function RootLayout({
 
         {/* AI Widget stays floating on every page */}
         <AiChatWidget />
-        </Providers>
+      
       </body>
     </html>
   );
