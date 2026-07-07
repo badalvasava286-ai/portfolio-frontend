@@ -1,4 +1,3 @@
-import Education from '@/components/Education';
 import Hero from '../components/Hero';
 import AboutTabs from '../components/AboutTabs';
 import SqlTerminal from '../components/SqlTerminal';
@@ -13,7 +12,6 @@ export default function Home() {
     <div className="bg-black min-h-screen font-sans selection:bg-blue-500 selection:text-white scroll-smooth">
       <main>
         <AboutTabs />
-        <Education />
         <Hero />
         <SqlTerminal />
         <DashboardSandbox />
