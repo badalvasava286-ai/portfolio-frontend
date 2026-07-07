@@ -1,3 +1,4 @@
+import LogisticsDashboard from '@/components/LogisticsDashboard';
 import AboutTabs from '@/components/AboutTabs';
 import Experience from '@/components/Experience';
 import SqlTerminal from '@/components/SqlTerminal';
@@ -73,6 +74,7 @@ export default function Home() {
       {/* --- REST OF THE PORTFOLIO --- */}
       <AboutTabs />
       <Experience />
+      <LogisticsDashboard />
       <SqlTerminal />
       <Projects />
       <Contact />
