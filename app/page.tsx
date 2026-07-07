@@ -57,7 +57,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-blue-500 rounded-full blur-[50px] opacity-20"></div>
           {/* REPLACE "/profile.jpg" WITH YOUR ACTUAL IMAGE FILENAME */}
           <img 
-            src="/profile.jpg" 
+            src="/profile.jpg.webp" 
             alt="Badal Vasava" 
             className="rounded-full w-full h-full object-cover border-4 border-gray-800 shadow-2xl relative z-10 hover:border-blue-500 transition-colors duration-500"
           />
