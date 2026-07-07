@@ -47,7 +47,9 @@ export default function Navbar() {
               })}
             </div>
           </div>
-
+<div className="flex items-center space-x-4">
+            <ThemeToggle />
+          </div>
           {/* Mobile Hamburger Button */}
           <div className="-mr-2 flex md:hidden">
             <button
