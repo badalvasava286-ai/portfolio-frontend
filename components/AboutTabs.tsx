@@ -49,14 +49,14 @@ export default function AboutTabs() {
               >
                 <div className="relative group">
                   <span className="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-black border-4 border-blue-600 group-hover:scale-125 transition duration-300 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></span>
-                  <h3 className="text-2xl font-bold text-white">Full-Stack Developer</h3>
-                  <div className="text-blue-400 font-semibold mb-2">Custom Applications <span className="text-gray-500 ml-2 text-sm">2026 - Present</span></div>
+                  <h3 className="text-2xl font-bold text-white">HR-Helpdesk</h3>
+                  <div className="text-blue-400 font-semibold mb-2">Flipkart_STV <span className="text-gray-500 ml-2 text-sm">Feb,2026 - Present</span></div>
                   <p className="text-gray-400 leading-relaxed">Engineered custom tracking applications. Designed functional search-enabled features and established seamless bidirectional syncing between AppSheet and Google Sheets.</p>
                 </div>
                 <div className="relative group">
                   <span className="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-black border-4 border-blue-600 group-hover:scale-125 transition duration-300 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></span>
-                  <h3 className="text-2xl font-bold text-white">Operations & Data Management</h3>
-                  <div className="text-blue-400 font-semibold mb-2">Mother Hub <span className="text-gray-500 ml-2 text-sm">2026</span></div>
+                  <h3 className="text-2xl font-bold text-white">System Supervisior</h3>
+                  <div className="text-blue-400 font-semibold mb-2">Expressbeess Logistic Solutions<span className="text-gray-500 ml-2 text-sm">Dec,2024-Jan,2026</span></div>
                   <p className="text-gray-400 leading-relaxed">Managed digital employee rosters. Executed SQL-style logic to resolve errors involving shift timings and transport status across operational units.</p>
                 </div>
               </motion.div>
@@ -113,7 +113,7 @@ export default function AboutTabs() {
                 <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
                   <h3 className="text-2xl font-bold text-white mb-2">B.Tech (Renewable Energy & Environmental Engineering)</h3>
                   <p className="text-blue-400 font-semibold mb-4">SD Agriculture University,Dantiwada <span className="text-gray-500 ml-2 text-sm">2021</span></p>
-                  <p className="text-gray-400">2021 <em>(You can update this section in the code with your specific university information)</em>.</p>
+                  <p className="text-gray-400"> <em>(Purchased graduation with Good Grades and Practical Experience)</em>.</p>
                 </div>
               </motion.div>
             )}
