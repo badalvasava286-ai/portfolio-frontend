@@ -1,3 +1,4 @@
+import LifeOffTheClock from '@/components/LifeOffTheClock';
 import LogisticsDashboard from '@/components/LogisticsDashboard';
 import AboutTabs from '@/components/AboutTabs';
 import Experience from '@/components/Experience';
@@ -78,6 +79,7 @@ export default function Home() {
       <SqlTerminal />
       <Projects />
       <Contact />
+      <LifeOffTheClock />
       <GithubGraph />
       
       {/* The AI Advocate is back! */}
