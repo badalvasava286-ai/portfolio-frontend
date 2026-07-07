@@ -77,8 +77,8 @@ export default function Home() {
       <Projects />
       <GithubGraph />
       <Contact />
-{/* Bring the AI back to life! */}
-      <AiChatWidget />
+       <AiChatWidget />
     </main>
+    
   );
 }
