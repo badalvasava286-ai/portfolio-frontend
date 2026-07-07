@@ -59,6 +59,18 @@ export default function AboutTabs() {
                   <div className="text-blue-400 font-semibold mb-2">Expressbeess Logistic Solutions<span className="text-gray-500 ml-2 text-sm">Dec,2024-Jan,2026</span></div>
                   <p className="text-gray-400 leading-relaxed">Managed digital employee rosters. Executed SQL-style logic to resolve errors involving shift timings and transport status across operational units.</p>
                 </div>
+                <div className="relative group">
+                  <span className="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-black border-4 border-blue-600 group-hover:scale-125 transition duration-300 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></span>
+                  <h3 className="text-2xl font-bold text-white">Stock Manager</h3>
+                  <div className="text-blue-400 font-semibold mb-2">Opus Apperities<span className="text-gray-500 ml-2 text-sm">June,2023-Nov,2023</span></div>
+                  <p className="text-gray-400 leading-relaxed">Directed inventory management protocols, utilizing digital tracking tools to maintain optimal stock levels and reconcile physical inventory with database records.</p>
+                </div>
+                <div className="relative group">
+                  <span className="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-black border-4 border-blue-600 group-hover:scale-125 transition duration-300 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></span>
+                  <h3 className="text-2xl font-bold text-white">Intern</h3>
+                  <div className="text-blue-400 font-semibold mb-2">Farmson Solar,Ahmedabad<span className="text-gray-500 ml-2 text-sm">Feb,2021-July,2021</span></div>
+                  <p className="text-gray-400 leading-relaxed">Assisted in the operational planning and technical documentation of renewable energy projects. Supported on-site operations and data collection to ensure compliance with project specifications.</p>
+                </div>
               </motion.div>
             )}
 
