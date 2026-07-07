@@ -1,24 +1,44 @@
 export default function Experience() {
   const experiences = [
-    {
-      role: "Full-Stack Developer",
-      company: "Custom Applications",
-      date: "2026 - Present",
-      details: "Engineered a custom overtime and attendance tracking application. Designed functional search-enabled features and established seamless bidirectional syncing between AppSheet and Google Sheets.",
-    },
-    {
-      role: "Operations & Data Management",
-      company: "Mother Hub",
-      date: "2026",
-      details: "Managed a digital employee roster and attendance tracker. Executed SQL-style query logic to resolve errors involving shift timings, employee IDs, and transport status across operational units.",
-    },
-    {
-      role: "Warehouse Operations",
-      company: "Zomato",
-      date: "2026",
-      details: "Selected for work slots and managed onboarding for warehouse billing operations within the Surat region facilities.",
-    }
-  ];
+  {
+    role: "HR Helpdesk & Data Systems Specialist",
+    company: "Flipkart STV (Mother Hub) / Zomato Operations",
+    date: "Feb 2026 – Present",
+    description: "Engineered custom tracking applications using AppSheet with bidirectional Google Sheets sync. Managed digital employee rosters for high-volume units, executing SQL-style logic to resolve shift and transport conflicts."
+  },
+  {
+    role: "System Supervisor",
+    company: "Xpressbees Logistics Solution",
+    date: "Dec 2024 – Jan 2026",
+    description: "Supervised system-level warehouse operations and workflow routing. Monitored real-time operational dashboards to troubleshoot system anomalies and optimize inbound/outbound data accuracy."
+  },
+  {
+    role: "Stock Manager",
+    company: "Opus Apperities",
+    date: "June 2023 – Nov 2023",
+    description: "Directed inventory management protocols, utilizing digital tracking tools to maintain optimal stock levels and reconcile physical inventory with database records."
+  },
+  {
+    role: "Engineering Intern",
+    company: "Farmson Solar",
+    date: "Feb 2021 – June 2021",
+    description: "Assisted in the operational planning and technical documentation of renewable energy projects. Supported on-site operations and data collection to ensure compliance with project specifications."
+  }
+];
+  const education = [
+  {
+    degree: "B.Tech in Renewable Energy and Environmental Engineering",
+    institution: "SD Agriculture University, Dantiwada",
+    date: "Graduated: 2021",
+    details: "CGPA: 7.32"
+  },
+  {
+    degree: "State-Level Professional Preparation",
+    institution: "Gujarat Online Job Application System",
+    date: "2021 - Present",
+    details: "Prepared for Revenue Talati Class-III & Assistant Environment Engineer Class-2. Developed strong analytical and regulatory comprehension skills."
+  }
+];
 
   return (
     <section className="py-24 p-10 md:p-24 bg-neutral-950 text-white">
