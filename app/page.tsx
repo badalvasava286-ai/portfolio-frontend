@@ -4,6 +4,8 @@ import Experience from '@/components/Experience';
 import SqlTerminal from '@/components/SqlTerminal';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
+import ChatWidget from '@/components/AiChatWidget';
+import AiChatWidget from '@/components/AiChatWidget';
 
 export default function Home() {
   return (
@@ -75,7 +77,8 @@ export default function Home() {
       <Projects />
       <GithubGraph />
       <Contact />
-
+{/* Bring the AI back to life! */}
+      <AiChatWidget />
     </main>
   );
 }
