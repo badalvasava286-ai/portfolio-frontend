@@ -2,7 +2,7 @@ export default function Experience() {
   const experiences = [
   {
     role: "HR Helpdesk & Data Systems Specialist",
-    company: "Flipkart STV (Mother Hub) / Zomato Operations",
+    company: "Flipkart STV (Mother Hub)",
     date: "Feb 2026 – Present",
     description: "Engineered custom tracking applications using AppSheet with bidirectional Google Sheets sync. Managed digital employee rosters for high-volume units, executing SQL-style logic to resolve shift and transport conflicts."
   },
