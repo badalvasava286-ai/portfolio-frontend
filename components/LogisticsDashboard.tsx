@@ -54,6 +54,12 @@ export default function LogisticsDashboard() {
               <Bar dataKey="dispatched" fill="#10B981" radius={[4, 4, 0, 0]} name="Dispatched" />
             </BarChart>
           </ResponsiveContainer>
+          {/* Security Disclaimer */}
+      <div className="mt-4 pt-4 border-t border-gray-800">
+        <p className="text-xs text-gray-500 italic text-center md:text-left">
+          * Note: Mock data utilized to demonstrate UI architecture while adhering to strict corporate data security policies.
+        </p>
+      </div>
         </div>
       </div>
     </section>
