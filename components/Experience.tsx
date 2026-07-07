@@ -25,20 +25,6 @@ export default function Experience() {
     description: "Assisted in the operational planning and technical documentation of renewable energy projects. Supported on-site operations and data collection to ensure compliance with project specifications."
   }
 ];
-  const education = [
-  {
-    degree: "B.Tech in Renewable Energy and Environmental Engineering",
-    institution: "SD Agriculture University, Dantiwada",
-    date: "Graduated: 2021",
-    details: "CGPA: 7.32"
-  },
-  {
-    degree: "State-Level Professional Preparation",
-    institution: "Gujarat Online Job Application System",
-    date: "2021 - Present",
-    details: "Prepared for Revenue Talati Class-III & Assistant Environment Engineer Class-2. Developed strong analytical and regulatory comprehension skills."
-  }
-];
 
   return (
     <section className="py-24 p-10 md:p-24 bg-neutral-950 text-white">
@@ -49,7 +35,7 @@ export default function Experience() {
             <span className="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-black border-4 border-blue-600 group-hover:scale-125 transition duration-300"></span>
             <h3 className="text-2xl font-bold text-white">{exp.role}</h3>
             <div className="text-blue-400 font-semibold mb-2">{exp.company} <span className="text-gray-500 ml-2 text-sm">{exp.date}</span></div>
-            <p className="text-gray-400 leading-relaxed">{exp.details}</p>
+            <p className="text-gray-400 leading-relaxed">{exp.description}</p>
           </div>
         ))}
       </div>

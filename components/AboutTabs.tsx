@@ -111,9 +111,9 @@ export default function AboutTabs() {
                   <p className="text-gray-400">Actively pursued and prepared for rigorous state-level professional roles, including Revenue Talati Class-III and Assistant Environment Engineer Class-2, demonstrating strong analytical and administrative capabilities.</p>
                 </div>
                 <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
-                  <h3 className="text-2xl font-bold text-white mb-2">Academic Degree</h3>
-                  <p className="text-blue-400 font-semibold mb-4">University Name <span className="text-gray-500 ml-2 text-sm">Graduation Year</span></p>
-                  <p className="text-gray-400">Degree details here. <em>(You can update this section in the code with your specific university information)</em>.</p>
+                  <h3 className="text-2xl font-bold text-white mb-2">B.Tech (Renewable Energy & Environmental Engineering)</h3>
+                  <p className="text-blue-400 font-semibold mb-4">SD Agriculture University,Dantiwada <span className="text-gray-500 ml-2 text-sm">2021</span></p>
+                  <p className="text-gray-400">2021 <em>(You can update this section in the code with your specific university information)</em>.</p>
                 </div>
               </motion.div>
             )}
