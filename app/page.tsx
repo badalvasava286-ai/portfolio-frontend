@@ -1,12 +1,12 @@
-import GithubGraph from '@/components/GithubGraph';
 import AboutTabs from '@/components/AboutTabs';
 import Experience from '@/components/Experience';
 import SqlTerminal from '@/components/SqlTerminal';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
-import ChatWidget from '@/components/AiChatWidget';
-import AiChatWidget from '@/components/AiChatWidget';
+import GithubGraph from '@/components/GithubGraph';
 
+// Import your AI Widget here
+import AiChatWidget from '@/components/AiChatWidget';
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white selection:bg-blue-500 selection:text-white pb-20">
@@ -75,9 +75,11 @@ export default function Home() {
       <Experience />
       <SqlTerminal />
       <Projects />
-      <GithubGraph />
       <Contact />
-       <AiChatWidget />
+      <GithubGraph />
+      
+      {/* The AI Advocate is back! */}
+      <AiChatWidget />
     </main>
     
   );
