@@ -26,7 +26,7 @@ export default function Home() {
         <div className="w-64 h-64 md:w-80 md:h-80 shrink-0 relative">
           <div className="absolute inset-0 bg-blue-500 rounded-full blur-[50px] opacity-20"></div>
           {/* Ensure your image name here is correct! */}
-          <img src="/profile.jpg" alt="Badal Vasava" className="rounded-full w-full h-full object-cover border-4 border-gray-800 shadow-2xl relative z-10 hover:border-blue-500 transition-colors duration-500" />
+          <img src="/profile.jpg.webp" alt="Badal Vasava" className="rounded-full w-full h-full object-cover border-4 border-gray-800 shadow-2xl relative z-10 hover:border-blue-500 transition-colors duration-500" />
         </div>
       </section>
 
