@@ -1,44 +1,65 @@
-import React from 'react';
+"use client";
+
+import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section className="w-full min-h-[85vh] flex flex-col justify-center items-start py-20 px-4 max-w-4xl mx-auto animate-fadeIn">
-      <p className="text-blue-500 font-semibold tracking-wide mb-3 text-lg">
-        Hi, my name is
-      </p>
-      <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 tracking-tight">
-        Badal Vasava.
-      </h1>
-      <h2 className="text-4xl md:text-6xl font-bold text-gray-400 mb-6">
-        I build systems that scale.
-      </h2>
-      
-      <p className="text-lg text-gray-300 max-w-2xl mb-10 leading-relaxed">
-        I'm a Full-Stack Engineer and Systems Architect specializing in React, Node.js, and complex data synchronization. From engineering logistics tracking apps to automating high-volume warehouse databases, I turn operational bottlenecks into elegant software solutions.
-      </p>
+    <section className="relative min-h-screen flex flex-col justify-center items-center p-10 md:p-24  text-gray-900 dark:text-white overflow-hidden text-center">
+      bg-white dark:bg-black
+      {/* Background Glow Effect */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[120px] pointer-events-none"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-emerald-600/10 rounded-full blur-[120px] pointer-events-none"></div>
 
-      <div className="flex flex-wrap gap-5 mt-4">
-        {/* The Resume Download Button */}
-        <a 
-          href="/resume.pdf" 
-          download="Badal_Vasava_Resume.pdf"
-          className="inline-flex items-center justify-center px-7 py-3 border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white font-semibold rounded-lg transition-all duration-300 shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(59,130,246,0.5)]"
+      <motion.div 
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="relative z-10 flex flex-col items-center"
+      >
+        
+        {/* Profile Photo Wrapper */}
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
+          className="w-40 h-40 md:w-48 md:h-48 rounded-full border-4 border-white/10 p-1 backdrop-blur-md mb-8 shadow-[0_0_30px_rgba(59,130,246,0.3)] relative group cursor-pointer"
         >
-          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 12v9m0 0l-3-3m3 3l3-3" />
-          </svg>
-          Download Resume
-        </a>
+          {/* Replace this src with your actual image path later */}
+          <img 
+            src="profile.jpg.webp" 
+            alt="Badalbhai Ineshbhai Vasava" 
+            className="w-full h-full object-cover rounded-full group-hover:scale-105 transition duration-500"
+          />
+          {/* Hover Overlay Glow */}
+          <div className="absolute inset-0 rounded-full bg-blue-500/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition duration-500"></div>
+        </motion.div>
 
-        {/* Secondary Action Button */}
-        <a 
+        {/* Name Header */}
+        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
+          Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Badalbhai</span>
+        </h1>
+
+        {/* Cool Subtitle */}
+        <h2 className="text-xl md:text-3xl font-medium text-gray-300 mb-6">
+          Full-Stack Engineer & Systems Architect
+        </h2>
+
+        {/* Punchy Summary */}
+        <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mb-10 leading-relaxed">
+          I bridge the gap between operational complexity and elegant software. From managing high-volume warehouse logic to engineering high-performance React and SQL applications, I build intelligent tools that scale.
+        </p>
+
+        {/* Call to Action */}
+        <motion.a 
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
           href="#projects" 
-          className="inline-flex items-center justify-center px-7 py-3 bg-gray-800 text-white hover:bg-gray-700 font-semibold rounded-lg transition-all duration-300 border border-gray-700"
+          className="inline-block px-8 py-4 bg-white text-black font-bold rounded-full hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] transition duration-300"
         >
-          View My Work
-        </a>
-      </div>
+          Explore My Architecture
+        </motion.a>
+        
+      </motion.div>
     </section>
   );
 }
