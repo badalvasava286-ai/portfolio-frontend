@@ -24,7 +24,8 @@ export default function AiChatWidget() {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5000/api/ai/chat', {
+      // Make sure you keep the /api/ai/chat at the end!
+const response = await fetch('https://badalbhai-portfolio-api.onrender.com/api/ai/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         // We now send the challengeMode flag to the backend!
