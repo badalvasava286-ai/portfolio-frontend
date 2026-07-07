@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <div className="bg-black min-h-screen font-sans selection:bg-blue-500 selection:text-white scroll-smooth">
       <main>
-        <AboutTabs />
         <Hero />
-        <SqlTerminal />
         <DashboardSandbox />
+        <Experience />
+        <AboutTabs />
+        <SqlTerminal />
         <Projects />
         <Contact />
-        <Experience />
       </main>
 
       <AiChatWidget />
