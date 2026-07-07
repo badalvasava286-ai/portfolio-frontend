@@ -1,3 +1,4 @@
+import GithubGraph from '@/components/GithubGraph';
 import AboutTabs from '@/components/AboutTabs';
 import Experience from '@/components/Experience';
 import SqlTerminal from '@/components/SqlTerminal';
@@ -72,6 +73,7 @@ export default function Home() {
       <Experience />
       <SqlTerminal />
       <Projects />
+      <GithubGraph />
       <Contact />
 
     </main>
